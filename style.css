@@ -1,0 +1,225 @@
+
+body{
+    background-color: #F5F6FA ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.airIndiaHeaderContainer{
+    /* Size of the box */
+    width: 1125px;
+    height: 300px;
+    margin: 0 auto;
+
+    /* Color of the box and text color */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    text-align: center; 
+
+    /* Image */
+    background-image: url("Images/Screenshot\ 2025-12-30\ at\ 4.50.03\ pm.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Border and Margin */
+    border: 4px solid black;
+    border-radius: 20px;
+
+
+}
+
+.miniBox{
+    background-color:blanchedalmond;
+    color: black;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid black;
+    width: 650px;
+    height: 130px;
+}
+
+.updateRow {
+    display: flex;
+    align-items: center;
+    gap: 15px;          
+    margin-left: 30px;   
+    margin-top: 10px;
+}
+
+.headerContainer{
+    /* Size of the box */
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+
+    /* Color of the box and text color */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    text-align: center;              
+    display: flex;
+    flex-direction: column;         
+    justify-content: center;        
+    align-items: center;
+
+    /* Image */
+    background-image: url("Images/Screenshot\ 2025-12-30\ at\ 4.50.03\ pm.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Border and Margin */
+    border: 4px solid black;
+    border-radius: 20px;
+
+}
+
+.headerHeaderContent{
+    text-align: center;
+    
+}
+
+.headerHeaderContentLeft{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.airlineContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;              
+    margin-top: 40px;
+}
+.airIndiaBox{
+
+    /* This is for the sizing */
+    width: 310px;
+    height: 150px;
+
+    /* Image Text */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+
+    /* Image itself */
+    background-image: url("Images/airIndiaPic.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    /* Button */
+    cursor: pointer;
+
+    /* Border and Margin */
+    border: 4px solid black;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.airIndiaExpressBox{
+
+    /* This is for the sizing */
+    width: 310px;
+    height: 150px;
+
+    /* Image Text */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+
+    /* Image itself */
+    background-image: url("Images/airIndiaExpressPic.png") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    /* Button */
+    cursor: pointer;
+    
+    /* Border and Margin */
+    border: 4px solid black;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.akasaAirBox{
+
+    /* This is for the sizing */
+    width: 310px;
+    height: 150px;
+
+    /* Image Text */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+
+    /* Image itself */
+    background-image: url("Images/akasaAirPic.png") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    /* Button */
+    cursor: pointer;
+    
+    /* Border and Margin */
+    border: 4px solid black;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.airIndiaAllAircraft{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.airIndiaVistaraAircraft{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.airIndiaRefurbishment{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.airIndiaRefresh{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.airIndiaButtonsBoxes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center; /* Middle of Column */
+    justify-content: center; /* Middle of Row */
+    gap: 40px;
+}
+
