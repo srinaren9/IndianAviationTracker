@@ -57,3 +57,20 @@ const B787Refurbishment = [
     {'sno': 26, 'Aircraft': "787-8" ,'Registeration': "VT-NAC", 'Status': "To Be Refurbished" , 
     'Location': "-", 'Date Ferried': "-", 'Date Finished': "-",'Durations (In Days)': "-"}
 ];
+
+let table = document.getElementById("B787Refurbishment");
+
+B787Refurbishment.forEach(element => {
+    let row = document.createElement("tr");
+
+    for(let key in element){
+        let cell = document.createElement("td");
+        cell.innerText = element[key];
+        row.appendChild(cell);
+    }
+
+    table.appendChild(row);
+});
+
+
+console.log(table);
