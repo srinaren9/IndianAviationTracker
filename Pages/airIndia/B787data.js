@@ -1,6 +1,6 @@
 
 
-const headers = 
+const headers787 = 
 [ 'sno', 'Aircraft', 'Registeration', 'Status', 'Location', 'Date Ferried', 'Date Finished', 'Durations (In Days)'];
 
 const B787Refurbishment = [
@@ -60,50 +60,30 @@ const B787Refurbishment = [
 
 
 
-const table = document.getElementById("B787Refurbishment");
+const table787 = document.getElementById("B787Refurbishment");
 
-const thead = document.createElement("thead");
-const headerRow = document.createElement("tr");
+const thead787 = document.createElement("thead");
+const headerRow787 = document.createElement("tr");
 
-headers.forEach(header => {
-    const th = document.createElement("th");
-    th.innerText = header;
-    headerRow.appendChild(th);
+headers787.forEach(header787 => {
+    const thead787 = document.createElement("th");
+    thead787.innerText = header787;
+    headerRow787.appendChild(thead787);
 })
 
-thead.appendChild(headerRow);
-table.appendChild(thead);
+thead787.appendChild(headerRow787);
+table787.appendChild(thead787);
 
-const tbody = document.createElement("tbody");
+const tbody787 = document.createElement("tbody");
 
 B787Refurbishment.forEach(element => {
-    const row = document.createElement("tr");
+    const row787 = document.createElement("tr");
     
-    headers.forEach(header => {
-        const td = document.createElement("td");
-        td.innerText = element[header] ?? "-";
-        row.appendChild(td);
+    headers787.forEach(header787 => {
+        const td787 = document.createElement("td");
+        td787.innerText = element[header787] ?? "-";
+        row787.appendChild(td787);
     })
-    tbody.appendChild(row);
+    tbody787.appendChild(row787);
 })
-table.appendChild(tbody);
-
-
-/*
-let table = document.getElementById("B787Refurbishment");
-
-B787Refurbishment.forEach(element => {
-    let row = document.createElement("tr");
-
-    for(let key in element){
-        let cell = document.createElement("td");
-        cell.innerText = element[key];
-        row.appendChild(cell);
-    }
-
-    table.appendChild(row);
-});
-
-
-console.log(table);
-*/
+table787.appendChild(tbody787);
