@@ -241,7 +241,7 @@ body{
 .B787RefurbishmentTableBox{
      /* Size of the box */
     width: 1200px;
-    height: 1280px;
+    height: auto;
     margin: 0 auto;
     box-align: center;
 
