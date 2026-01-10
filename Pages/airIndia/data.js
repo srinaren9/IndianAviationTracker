@@ -1,7 +1,7 @@
 
 
 const headers = 
-[ 'sno', 'Aircraft', 'Registeration', 'Status', 'Location', 'Date Ferried', 'Date Finished', 'Duration (In Days)'];
+[ 'sno', 'Aircraft', 'Registeration', 'Status', 'Location', 'Date Ferried', 'Date Finished', 'Durations (In Days)'];
 
 const B787Refurbishment = [
     {'sno': 1, 'Aircraft': "787-8" ,'Registeration': "VT-ANA", 'Status': "To Be Refurbished" , 
@@ -58,6 +58,38 @@ const B787Refurbishment = [
     'Location': "-", 'Date Ferried': "-", 'Date Finished': "-",'Durations (In Days)': "-"}
 ];
 
+
+
+const table = document.getElementById("B787Refurbishment");
+
+const thead = document.createElement("thead");
+const headerRow = document.createElement("tr");
+
+headers.forEach(header => {
+    const th = document.createElement("th");
+    th.innerText = header;
+    headerRow.appendChild(th);
+})
+
+thead.appendChild(headerRow);
+table.appendChild(thead);
+
+const tbody = document.createElement("tbody");
+
+B787Refurbishment.forEach(element => {
+    const row = document.createElement("tr");
+    
+    headers.forEach(header => {
+        const td = document.createElement("td");
+        td.innerText = element[header] ?? "-";
+        row.appendChild(td);
+    })
+    tbody.appendChild(row);
+})
+table.appendChild(tbody);
+
+
+/*
 let table = document.getElementById("B787Refurbishment");
 
 B787Refurbishment.forEach(element => {
@@ -74,3 +106,4 @@ B787Refurbishment.forEach(element => {
 
 
 console.log(table);
+*/
