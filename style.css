@@ -226,17 +226,22 @@ body{
 
 .B787RefurbishmentTable{
     font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.B787RefurbishmentTable tr{
+    border-bottom: 1px solid grey;
 }
 
 .B787RefurbishmentTable td{
-    padding: 12px;
-    border-bottom: 1px solid grey;
+    padding: 12px 10px;
 }
 
 .B787RefurbishmentTableBox{
      /* Size of the box */
-    width: 900px;
-    height: 1180px;
+    width: 1200px;
+    height: 1280px;
     margin: 0 auto;
     box-align: center;
 
@@ -247,4 +252,22 @@ body{
 
     /* Border and Margin */
     border-radius: 20px;
+
+    padding: 1px 10px;
+}
+
+.AirIndiaRefurbishmentHeaderBoxText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin: 15px;
+}
+
+.AirIndiaRefurbishmentOptionsBoxText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    margin: 15px;
 }
