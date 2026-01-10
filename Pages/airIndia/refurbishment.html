@@ -19,26 +19,41 @@
 
     <p>
         Select Aircraft Type: 
-        <select>
+        <select id="aircraftOption">
+
+            <option value="Select">
+                Select
+            </option>
             <option value="B787Refurbishment">
                 Boeing 787
             </option>
             <option value="a320neoRefurbishment">
-                Airbus 320neo
+                Airbus a320 Family
             </option>
             <option value="B777Refurbishment">
                 Boeing 777
             </option>
         </select>
     </p>
-    
-    <table id="B787Refurbishment" class="B787RefurbishmentTable">
-    </table>
 
-    <script src="data.js">
-    </script>
+    <table id="B787Refurbishment" class="B787RefurbishmentTable" style="display: none;">
+    </table>
+    <table id="B777Refurbishment" class="B777RefurbishmentTable" style="display: none;">
+    </table>    
+    <table id="a320neoRefurbishment" class="A320RefurbishmentTable" style="display: none;">
+    </table>  
 
     </div>
+
+    <script src="B787data.js">
+    </script>
+    <script src="777Data.js">
+    </script>
+    <script src="a320Data.js">
+    </script>
+    <script src="commandCenter.js">
+    </script>
+
 
 
 </body>
