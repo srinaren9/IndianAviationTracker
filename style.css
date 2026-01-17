@@ -311,3 +311,18 @@ body{
 .A320RefurbishmentTable td{
     padding: 12px 10px;
 }
+
+
+.B777RefreshTable{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.B777RefreshTable tr{
+    border-bottom: 1px solid grey;
+}
+
+.B777RefreshTable td{
+    padding: 12px 10px;
+}
