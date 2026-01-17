@@ -7,12 +7,47 @@
     <title>
         Vistara Aircraft 
     </title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../../style.css">
 </head>
 
 <body>
 
+    <div class="B787RefurbishmentTableBox">
+
+        <h1 class="AirIndiaRefurbishmentBoxText">
+            Vistara Aircraft Refresh Progress
+        </h1>
+
+        <p>
+            Select Aircraft Type: 
+
+            <select id="aircraftOption1">
+                <option value="Select1">
+                  Select
+              </option>
+              <option value="A320neoRefresh">
+                   Airbus a320neo
+              </option>
+              <option value="A321neoRefresh">
+                   Airbus a321neo
+              </option>
+              <option value="B787Refresh">
+                   Boeing 787
+              </option>
+        </select>
+        </p>
+
+    <table id="B777Refresh" class="B777RefreshTable" style="display: none;">
+    </table>
+
+    </div>
+
+    <script src="777RData.js">
+    </script>
+    <script src="commandCenter1.js">
+    </script>
 
 </body>
+
 
 </html>
