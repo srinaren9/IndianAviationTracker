@@ -6,12 +6,60 @@
     <title>
         Air India Aircraft
     </title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../../style.css">
 </head>
 
 <body>
 
+    <div class="B787RefurbishmentTableBox">
 
+        <h1 class="AirIndiaRefurbishmentBoxText">
+            Air India Fleet
+        </h1>
+
+        <p>
+            Select Aircraft Type: 
+
+            <select id="aircraftOption2">
+                <option value="Select1">
+                  Select
+              </option>
+              <option value="A320Family">
+                   Airbus a320 Family
+              </option>
+              <option value="A350Family">
+                   Airbus a350 Family
+              </option>
+              <option value="B787Family">
+                   Boeing 787 Family
+              </option>
+              <option value="B777Family">
+                   Boeing 777 Family
+              </option>
+        </select>
+        </p>
+
+    <table id="A320Family" class="B777RefreshTable" style="display: none;">
+    </table>
+    <table id="A350Family" class="B777RefreshTable" style="display: none;">
+    </table>
+    <table id="B787Family" class="B777RefreshTable" style="display: none;">
+    </table>
+    <table id="B777Family" class="B777RefreshTable" style="display: none;">
+    </table>
+
+    </div>
+
+    <script src="a350Family.js">
+    </script>
+    <script src="a320Family.js">
+    </script>
+    <script src="B777Family.js">
+    </script>
+    <script src="B787Family.js">
+    </script>
+    <script src="commandCenter2.js">
+    </script>
 
 </body>
 
