@@ -6,16 +6,18 @@ const headers787 =
 const B787 = [
     {'sno': 1, 'Aircraft': "787-9" ,'Registeration': "VT-TSD", 'Status': "NewV" , 
     'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
-    {'sno': 2, 'Aircraft': "787-9" ,'Registeration': "VT-TSE", 'Status': "To Be Refreshed" , 
+    {'sno': 2, 'Aircraft': "787-9" ,'Registeration': "VT-TSE", 'Status': "NewV" , 
     'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
-    {'sno': 3, 'Aircraft': "787-9" ,'Registeration': "VT-TSH", 'Status': "To Be Refreshed" , 
+    {'sno': 3, 'Aircraft': "787-9" ,'Registeration': "VT-TSH", 'Status': "NewV" , 
     'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
-    {'sno': 4, 'Aircraft': "787-9" ,'Registeration': "VT-TSN", 'Status': "To Be Refreshed" , 
+    {'sno': 4, 'Aircraft': "787-9" ,'Registeration': "VT-TSN", 'Status': "NewV" , 
     'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
-    {'sno': 5, 'Aircraft': "787-9" ,'Registeration': "VT-TSO", 'Status': "To Be Refreshed" , 
+    {'sno': 5, 'Aircraft': "787-9" ,'Registeration': "VT-TSO", 'Status': "NewV" , 
     'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
-    {'sno': 6, 'Aircraft': "787-9" ,'Registeration': "VT-TSP", 'Status': "To Be Refreshed" , 
-   'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
+    {'sno': 6, 'Aircraft': "787-9" ,'Registeration': "VT-TSP", 'Status': "NewV" , 
+    'F': 0, 'C': 30, 'W': 21, 'Y': 248, 'Total': 299},
+    {'sno': 7, 'Aircraft': "787-9" ,'Registeration': "VT-AWA", 'Status': "New" , 
+    'F': 0, 'C': 30, 'W': 28, 'Y': 238, 'Total': 296},
 ];
 
 
