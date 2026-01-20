@@ -1,9 +1,9 @@
 
-const select = document.getElementById("aircraftOption2");
-const b787Family = document.getElementById("A320Family");
-const b777Family = document.getElementById("A350Family");
-const a320Family = document.getElementById("B787Family");
-const a350Family = document.getElementById("B777Family");
+const select = document.getElementById("aircraftOption3");
+const a320Family = document.getElementById("A320Family");
+const a350Family = document.getElementById("A350Family");
+const b787Family = document.getElementById("B787Family");
+const b777Family = document.getElementById("B777Family");
 
 
 
