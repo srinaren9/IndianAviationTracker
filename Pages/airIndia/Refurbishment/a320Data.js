@@ -9,7 +9,7 @@ const A320Refurbishment = [
     {'sno': 2, 'Aircraft': "a320neo" ,'Registeration': "VT-EXG", 'Status': "Refurbished" , 
     'Location': "Nagpur", 'Date Ferried': "18 March 2025", 'Date Finished': "05 April 2025",'Durations (In Days)': "18"},
     {'sno': 3, 'Aircraft': "a320neo" ,'Registeration': "VT-EXH", 'Status': "Refurbished" , 
-    'Location': "Nagpur", 'Date Ferried': "24 April 2025", 'Date Finished': "11 ApMayril 2025",'Durations (In Days)': "18"},
+    'Location': "Nagpur", 'Date Ferried': "24 April 2025", 'Date Finished': "11 May 2025",'Durations (In Days)': "18"},
     {'sno': 4, 'Aircraft': "a320neo" ,'Registeration': "VT-EXI", 'Status': "Refurbished" , 
     'Location': "Hosur", 'Date Ferried': "02 July 2025", 'Date Finished': "18 July 2025",'Durations (In Days)': "16"},
     {'sno': 5, 'Aircraft': "a320neo" ,'Registeration': "VT-EXJ", 'Status': "Refurbished" , 
